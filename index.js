@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.json("Hello this is the backend");
+  res.json("Hello this is the backend YEAH");
 });
 
 app.get("/bloques", (req, res) => {
